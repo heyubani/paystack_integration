@@ -1,0 +1,24 @@
+{
+  "name": "paystack_inte",
+  "version": "1.0.0",
+  "description": "backend project with paystack api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon jshint node src/index.js"
+  },
+  "author": "uabni",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "nodemailer": "^6.7.1",
+    "pg-promise": "^10.11.1",
+    "request": "^2.88.2",
+    "requst": "^0.0.1-security",
+    "router": "^1.3.6"
+  }
+}
